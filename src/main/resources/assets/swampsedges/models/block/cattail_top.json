@@ -1,12 +1,12 @@
 {
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
-	"parent": "plant mod",
+	"parent": "swamp_sedges",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "samalando:block/cattail_stem",
-		"2": "samalando:block/texture",
-		"particle": "samalando:block/texture"
+		"1": "swampsedges:block/cattail_stem",
+		"2": "swampsedges:block/texture",
+		"particle": "swampsedges:block/texture"
 	},
 	"elements": [
 		{
@@ -35,11 +35,5 @@
 				"down": {"uv": [6, 4.5, 4, 6.5], "texture": "#2"}
 			}
 		}
-	],
-	"gui_light": "front",
-	"display": {
-		"gui": {
-			"rotation": [4, -61, -31]
-		}
-	}
+	]
 }

@@ -1,9 +1,9 @@
 {
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
-	"parent": "plant mod",
+	"parent": "swamp_sedges",
 	"textures": {
-		"1": "samalando:block/cattail_stem"
+		"1": "swampsedges:block/cattail_stem"
 	},
 	"elements": [
 		{
@@ -19,10 +19,5 @@
 				"down": {"uv": [10, 2, 8, 4], "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [-18, 30, -31]
-		}
-	}
+	]
 }

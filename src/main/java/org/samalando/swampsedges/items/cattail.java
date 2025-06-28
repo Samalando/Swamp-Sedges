@@ -13,11 +13,12 @@ public class cattail {
 
     public static final Item CATTAIL = register(new Item(new Item.Settings()), "cattail");
     public static Item register(Item item, String id) {
-        Identifier cattail = Identifier.of(Swampsedges.MOD_ID, id);
+        Identifier cattail = Identifier.of(Swampsedges.MOD_ID, "cattail");
 
         // Register the item.
-        Identifier itemID = null;
-        Item registeredItem = Registry.register(Registries.ITEM, itemID, item);
+
+
+        Item registeredItem = Registry.register(Registries.ITEM, cattail, item);
 
         // Return the registered item!
         return registeredItem;
