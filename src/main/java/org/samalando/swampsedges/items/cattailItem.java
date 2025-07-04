@@ -8,7 +8,7 @@ import org.samalando.swampsedges.Swampsedges;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 
-public class cattail {
+public class cattailItem {
 
 
     public static final Item CATTAIL = register(new Item(new Item.Settings()), "cattail");
@@ -28,6 +28,6 @@ public class cattail {
         // Get the event for modifying entries in the ingredients group.
 // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
-                .register((itemGroup) -> itemGroup.add(cattail.CATTAIL));
+                .register((itemGroup) -> itemGroup.add(cattailItem.CATTAIL));
     }
 }
